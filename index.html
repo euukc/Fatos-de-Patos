@@ -10,10 +10,10 @@
 </head>
 
 <body class="w-full h-min-screen ">
-    <header class="w-full h-[80px] bg-[#218ee1ff] flex justify-start items-center px-[25px]">
-        <div class="flex justify-between items-center w-full">
+    <header id="menu-navbar" class=" w-[100%] h-[80px] bg-[#218ee1ff] flex md:justify-start items-center md:px-[25px] px-[10px]">
+        <div class="w-full flex justify-around items-center gap-2">
             <img src="/img/logo.JPG" alt="Logo do Fatos de Patos">
-            <h1> ESTE SITE NÃO TEM COMPROMISSO COM A VERDADE!
+            <h1 class="text-sm text-center"> ESTE SITE NÃO TEM COMPROMISSO COM A VERDADE!
             </h1>
 
             <ul>
@@ -21,13 +21,7 @@
                     <a href="/" alt="Logo do Instagram">
                         <img src="/img/instagram-icon.png" alt="" class="w-[30px] ">
                     </a>
-                </li>
-                <li>
-                    <a href="/" alt="Logo do Instagram"></a>
-                </li>
-                <li>
-                    <a href="/" alt="Logo do Instagram"></a>
-                </li>
+                </li>                
             </ul>
         </div>
 
@@ -38,50 +32,50 @@
         </ul>
     </header>
 
-    <section class="flex flex-col justify-center items-center mx-[330px] mt-[100px] text-justify">
-        <h1 class="text-[48px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat hic ex consequuntur
+    <section id="menu-noticias" class="flex flex-col justify-center items-center md:mx-[330px] mt-[100px] text-justify">
+        <h1 class="md:text-[48px] text-[30px] px-[20px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat hic ex consequuntur
             illum dolorem.</h1>
-        <div class="flex justify-around items-center flex-wrap mt-[100px] gap-6">
-            <div class="flex w-[33%] gap-2">
+        <div class="flex md:justify-around md:items-center flex-col md:flex-row flex-wrap md:mt-[100px] mt-[40px] gap-6 px-[20px]">
+            <div class="flex md:w-[33%] gap-2">
                 <img src="/img/img-noticias.png" alt="">
                 <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolorum.</span>
             </div>
-            <div class="flex w-[33%] gap-2">
+            <div class="flex md:w-[33%] gap-2">
                 <img src="/img/img-noticias.png" alt="">
                 <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolorum.</span>
             </div>
-            <div class="flex w-[33%] gap-2">
+            <div class="flex md:w-[33%] gap-2">
                 <img src="/img/img-noticias.png" alt="">
                 <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolorum.</span>
             </div>
-            <div class="flex w-[33%] gap-2">
+            <div class="flex md:w-[33%] gap-2">
                 <img src="/img/img-noticias.png" alt="">
                 <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolorum. TESTE</span>
             </div>
 
         </div>
     </section>
-    <section class="flex flex-col justify-center items-center mx-[330px] mt-[100px] text-justify gap-8 mb-[100px]">
+    <section class="flex flex-col justify-center items-center md:mx-[330px] md:mt-[100px] text-justify gap-8 mb-[100px] mt-[40px]">
         <div>
-            <h1 class="text-[48px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat hic ex
+            <h1 class="md:text-[48px] text-[30px] px-[20px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat hic ex
                 consequuntur
                 illum dolorem.</h1>
         </div>
-        <div class="mt-[80px]">
-            <iframe width="800" height="500" src="https://www.youtube.com/embed/ZZ5LpwO-An4?si=MEKB8o_2C1_TBlZg"
+        <div class="mt-[40px]">
+            <iframe class="w-[400px] h-[300px] md:w-[800px] md-h[800px] px-[20px]" width="800" height="500" src="https://www.youtube.com/embed/ZZ5LpwO-An4?si=MEKB8o_2C1_TBlZg"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </section>
-    <footer class="w-full h-[162px] bg-[#218ee1ff] flex flex-col justify-center items-center">
-        <div class="border-b-2 mx-[330px] w-[1250px] flex justify-around pb-[10px]">
+    <footer class="w-full h-[130px] md:h-[162px] bg-[#218ee1ff] flex flex-col justify-center items-center ">
+        <div class="border-b-2 md:mx-[330px] md:w-[1250px] flex justify-center pb-[10px] px-[10px]">
             <span> Lei Paulo Gustavo</span>
             <span> Ministério da Cultura</span>
             <span> Governo Federal</span>
             <span> Prefeitura de Pato de Minas  </span>
         </div>
-        <div class="mx-[330px] mt-[20px]">
+        <div class="md:mx-[330px] md:mt-[20px] mt-[15px]">
             <p class="text-sm">Desenvolvido por <a href="/">Kênia Caroline</a></p>
         </div>
 

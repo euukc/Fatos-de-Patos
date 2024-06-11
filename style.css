@@ -8,3 +8,21 @@
     font-optical-sizing: auto;
     font-weight: 600;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media(max-width: 574px) {
+    #menu-navbar {
+      width: 100%;
+      height: 80px;
+    }
+
+    #menu-noticias {
+        width: 100%;
+        
+    }
+  
+  }
