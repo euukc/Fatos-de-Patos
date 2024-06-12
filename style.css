@@ -24,6 +24,11 @@ body, html {
 
 
 @media(max-width: 574px) {
+
+    header {
+        paddi
+    }
+    
     #menu-navbar {
       width: 100%;
       height: 80px;
