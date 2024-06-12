@@ -9,8 +9,9 @@
     font-weight: 600;
 }
 
-body {
+body, html {
     overflow-x: hidden;
+    width: 100%;
 }
 
 
