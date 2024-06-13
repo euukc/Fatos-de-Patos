@@ -9,9 +9,14 @@
     font-weight: 600;
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
     width: 100%;
+}
+
+.manchete:hover {
+    cursor: pointer;
 }
 
 @media(max-width: 480px) {
@@ -22,25 +27,22 @@ body, html {
 }
 
 
-
 @media(max-width: 574px) {
 
-       
-    
 
     #menu-noticias {
         width: 100%;
-        
+
     }
 
     #video {
         width: 330px;
         height: 250px;
     }
-  
-  }
 
-  @media(min-width: 480px) and (max-width:765px) {
+}
+
+@media(min-width: 480px) and (max-width:765px) {
     #video {
         width: 460px;
         height: 350px;
