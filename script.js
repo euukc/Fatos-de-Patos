@@ -1,4 +1,4 @@
-import sha256 from 'js-sha256';
+
 
 const manchetes = document.querySelectorAll('.manchete');
 const video = document.getElementById('video');
